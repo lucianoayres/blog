@@ -1,5 +1,6 @@
-minima:
-  skin: dark
+theme:
+  minima:
+    skin: dark
 title: Luciano Ayres' Blog
 author: Luciano Ayres
 description: Personal Blog
