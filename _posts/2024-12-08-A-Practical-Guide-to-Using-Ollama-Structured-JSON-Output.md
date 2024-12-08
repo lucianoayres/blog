@@ -233,7 +233,7 @@ Whether you’re extracting basic information, detailed data, or analyzing image
 
 ## Get the Code
 
-Access the complete code on [GitHub](https://github.com/yourusername/ollama-structured-outputs-demo). Clone the repository, install dependencies, and run the examples in the `examples` folder to try out Ollama’s structured JSON output.
+Access the complete code on [GitHub](https://github.com/yourusername/ollama-structured-outputs-demo). Clone the repository, install dependencies, and run the examples to try out Ollama’s structured JSON output.
 
 ## Sources & Resources
 
