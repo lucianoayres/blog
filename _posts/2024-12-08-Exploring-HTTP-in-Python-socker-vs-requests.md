@@ -1,6 +1,7 @@
 ---
 title: "Exploring HTTP in Python: socket vs. requests"
 date: 2024-12-08
+author: "Luciano Ayres"
 ---
 
 Python's `requests` library is a favorite for handling HTTP requests, but have you ever wondered what it simplifies for you? I decided to dig deeper by crafting an HTTP GET request using the `socket` library to understand the details it abstracts.
