@@ -4,7 +4,9 @@ date: 2024-12-08
 author: "Luciano Ayres"
 ---
 
-If you’ve been dabbling in AI projects or just curious about leveraging powerful language models without breaking the bank, you’re in the right place. Today, we’re diving into how you can access Google’s Gemini API for free using a Google Colab notebook. While the free tier does come with some rate limits, it’s more than enough for study projects and experimentation. Let’s get started!
+If you’ve been dabbling in AI projects or just curious about leveraging powerful language models without breaking the bank, you’re in the right place. Today, we’re diving into how you can access Google’s Gemini API for free using a Google Colab notebook. 
+
+While the free tier does come with some rate limits, it’s more than enough for study projects and experimentation. Let’s get started!
 
 ## Setting Up Secrets in Your Colab Notebook 🔒
 
