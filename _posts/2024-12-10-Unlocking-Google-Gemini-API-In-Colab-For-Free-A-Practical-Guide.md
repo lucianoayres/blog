@@ -1,6 +1,6 @@
 ---
 title: "Unlocking Google Gemini API in Colab for Free: A Practical Guide"
-date: 2024-12-08
+date: 2024-12-10
 author: "Luciano Ayres"
 ---
 
