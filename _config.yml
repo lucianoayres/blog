@@ -9,3 +9,5 @@ author:
   name: Luciano Ayres
 description: A blog where ideas branch out and merge.
 show_excerpts: true
+header_pages:
+  - about.md
