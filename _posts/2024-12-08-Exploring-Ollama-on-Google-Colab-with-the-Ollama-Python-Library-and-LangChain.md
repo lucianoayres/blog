@@ -1,6 +1,12 @@
 ---
 title: "Exploring Ollama on Google Colab with the Ollama Python Library and LangChain"
 date: 2024-12-08
+author: "Liuciano Ayres"
+tags:
+  - Ollama
+  - Google Colab
+  - LangChain
+  - Python
 ---
 
 I’d like to share my experience integrating Ollama with Google Colab using the [Ollama Python Library](https://github.com/ollama/ollama-python) and the [LangChain library](https://python.langchain.com/docs/integrations/providers/ollama/). I hope you find this guide helpful.
