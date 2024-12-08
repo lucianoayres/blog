@@ -231,6 +231,10 @@ Ollama’s Structured JSON Output feature simplifies the integration of LLMs int
 
 Whether you’re extracting basic information, detailed data, or analyzing images, structured JSON output helps standardize your workflows and makes your integrations more reliable.
 
+## Get the Code
+
+Access the complete code on [GitHub](https://github.com/yourusername/ollama-structured-outputs-demo). Clone the repository, install dependencies, and run the examples in the `examples` folder to try out Ollama’s structured JSON output.
+
 ## Sources & Resources
 
 - [Ollama Blog: Structured Outputs](https://ollama.com/blog/structured-outputs)
