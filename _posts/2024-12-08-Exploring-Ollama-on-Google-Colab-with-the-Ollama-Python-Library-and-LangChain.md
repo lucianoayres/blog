@@ -7,6 +7,10 @@ tags:
   - Google Colab
   - LangChain
   - Python
+categories:
+  - Machine Learning
+  - Programming Tutorials
+keywords: ["Ollama", "Google Colab", "LangChain", "Python", "AI Integration"]
 ---
 
 I’d like to share my experience integrating Ollama with Google Colab using the [Ollama Python Library](https://github.com/ollama/ollama-python) and the [LangChain library](https://python.langchain.com/docs/integrations/providers/ollama/). I hope you find this guide helpful.
