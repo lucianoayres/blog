@@ -1,6 +1,6 @@
 ---
 title: "Exploring Ollama on Google Colab with the Ollama Python Library and LangChain"
-date: 2024-12-08
+date: 2024-12-12
 author: "Luciano Ayres"
 tags:
   - Ollama
