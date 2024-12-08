@@ -3,7 +3,7 @@ title: "Exploring Ollama on Google Colab with the Ollama Python Library and Lang
 date: 2024-12-08
 ---
 
-I’d like to share my experience integrating Ollama with Google Colab using the Ollama Python Library and the LangChain library. I hope you find this guide helpful.
+I’d like to share my experience integrating Ollama with Google Colab using the [Ollama Python Library](https://github.com/ollama/ollama-python) and the [LangChain library](https://python.langchain.com/docs/integrations/providers/ollama/). I hope you find this guide helpful.
 
 ## Why Ollama and Google Colab?
 
@@ -151,7 +151,7 @@ Here are some insights from my experience:
 3. **Powerful Integrations:** Combining Ollama with LangChain unlocks advanced functionalities, facilitating the development of sophisticated language-based applications.
 4. **Resource Efficiency:** Google Colab provides the necessary computational resources without the need for expensive local hardware setups.
 
-Feel free to check out my [Google Colab notebook](https://colab.research.google.com/drive/1a3nAnxyyT9u52NPiXC6vwOz--eDkDq4s?usp=sharing) where you can try the code yourself. Share your questions or experiences in the comments below—I’d be glad to discuss further!
+Feel free to check out my [Google Colab notebook](https://colab.research.google.com/drive/1a3nAnxyyT9u52NPiXC6vwOz--eDkDq4s?usp=sharing) where you can try the code yourself.
 
 ## References
 
