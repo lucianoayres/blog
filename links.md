@@ -1,6 +1,6 @@
 ---
 title: Curated Tech Links
 layout: redirect
-permalink: /external-link/
-redirect_to: https://example.com
+permalink: /curated-tech-links/
+redirect_to: (https://encouraging-caraway-9fb.notion.site/14771d717cb180f0bcbbd383eb31bf70
 ---
