@@ -95,7 +95,8 @@ With your API key integrated, you’re ready to make your first call to the Gemi
 
 This simple call sends a prompt to the Gemini API and prints out the model’s response. It’s a great way to verify that everything is functioning as expected.
 
-## BONUS: Using the Google Gemini Python Library ⭐
+## BONUS ⭐
+### Using the Google Gemini Python Library 
 
 If you prefer a more streamlined approach, you can use the Google Gemini Python library to interact with the API. Here’s how:
 
