@@ -4,7 +4,7 @@ minima:
   social_links:
     - { platform: linkedin, user_url: "https://linkedin.com/in/lucianoayres" }
     - { platform: github,  user_url: "https://github.com/lucianoayres" }
-title: ⚡️ Luciano Ayres' Blog
+title: Luciano Ayres' Blog
 author: 
   name: Luciano Ayres
 description: A blog where ideas branch out and merge.
