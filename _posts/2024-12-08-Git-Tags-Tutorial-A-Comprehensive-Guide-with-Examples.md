@@ -1,6 +1,6 @@
 ---
 title: "Git Tags Tutorial: A Comprehensive Guide with Examples"
-date: 2024-12-09
+date: 2024-12-08
 author: "Luciano Ayres"
 ---
 
