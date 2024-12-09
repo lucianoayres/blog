@@ -1,5 +1,5 @@
 ---
-title: "HTTP in Python: Comparing Socket and Requests"
+title: "HTTP Requests in Python: Comparing Socket and Requests"
 date: 2024-12-09
 author: "Luciano Ayres"
 ---
