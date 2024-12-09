@@ -1,6 +1,6 @@
 ---
 title: "Easily Consolidate Your Entire GitHub Repository into a Single Text File"
-date: 2024-12-11
+date: 2024-12-11 00:00:00
 author: "Luciano Ayres"
 ---
 
