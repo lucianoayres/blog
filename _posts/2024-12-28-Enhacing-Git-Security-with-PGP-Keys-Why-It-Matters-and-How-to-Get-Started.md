@@ -176,32 +176,35 @@ git log --show-signature
 
 ### Step 5: Publish Your Public Key to a Remote Repository
 
-GitHub
-	1.	Go to Settings → SSH and GPG Keys.
-	2.	Click New GPG Key and paste your public key:
+#### GitHub
+
+1. Go to Settings → SSH and GPG Keys.
+2. Click New GPG Key and paste your public key:
 
 ```bash
 cat public_key.asc
 ```
 
-	3.	Save the key.
+3.	Save the key.
 
-GitLab
-	1.	Go to Settings → GPG Keys.
-	2.	Paste your public key.
-	3.	Add the key.
+#### GitLab
+
+1.	Go to Settings → GPG Keys.
+2.	Paste your public key.
+3.	Add the key.
 
 ### Step 6: Enforce Signed Commits on Remote Repositories
 
-GitHub (Branch Protection Rules)
-	1.	Go to your repository’s Settings → Branches.
-	2.	Add a branch protection rule for main or master.
-	3.	Enable Require signed commits.
-	4.	Save the changes.
+#### GitHub (Branch Protection Rules)
+
+1.	Go to your repository’s Settings → Branches.
+2.	Add a branch protection rule for main or master.
+3.	Enable Require signed commits.
+4.	Save the changes.
 
 Now, unsigned commits will be rejected when pushed to protected branches.
 
-## GitLab and Bitbucket
+#### GitLab and Bitbucket
 
 Use CI/CD pipelines to enforce signature verification as part of the build process.
 
@@ -219,16 +222,17 @@ verify_signatures:
     - git log --show-signature
 ```
 
-Best Practices for Managing PGP Keys
-	•	Revocation Certificate: Generate a revocation certificate in case your key is lost or compromised:
+## Best Practices for Managing PGP Keys
+
+Revocation Certificate: Generate a revocation certificate in case your key is lost or compromised:
 
 ```bash
 gpg --gen-revoke YOUR_KEY_ID > revoke.asc
 ```
 
-	•	Backup Keys Securely: Store backups in encrypted storage or hardware security modules (HSM).
-	•	Rotate Keys Regularly: Update keys periodically or whenever a team member leaves the organization.
-	•	Use Hardware Tokens (YubiKey): Secure your private key on a hardware device for added protection.
+- Backup Keys Securely: Store backups in encrypted storage or hardware security modules (HSM).
+- Rotate Keys Regularly: Update keys periodically or whenever a team member leaves the organization.
+- Use Hardware Tokens (YubiKey): Secure your private key on a hardware device for added protection.
 
 ## Final Thoughts
 
