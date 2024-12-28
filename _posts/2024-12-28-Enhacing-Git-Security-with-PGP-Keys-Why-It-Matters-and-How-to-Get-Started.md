@@ -1,5 +1,5 @@
 ---
-title: "# Enhancing Git Security with PGP Keys: Why It Matters and How to Get Started"
+title: "Enhancing Git Security with PGP Keys: Why It Matters and How to Get Started"
 date: 2024-12-28 00:00:00
 author: "Luciano Ayres"
 ---
