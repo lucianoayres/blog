@@ -263,14 +263,9 @@ To further enhance your understanding and implementation of PGP keys with Git, e
 - [Stack Overflow: PGP Git Questions](https://stackoverflow.com/questions/tagged/pgp+git): Community-driven Q&A for PGP and Git integration.
 - [GnuPG Mailing Lists](https://gnupg.org/community/lists.html): Join discussions and seek help from the GnuPG community.
 
-### Best Practices
-
-- [Securing Git Repositories](https://opensource.com/article/19/7/git-security): Article on securing Git repositories, including the use of PGP.
-
 ### Additional Reading
 
 - [Pro Git Book](https://git-scm.com/book/en/v2): An extensive resource covering all aspects of Git, including security features.
-- [Understanding Git Commit Signing](https://www.digitalocean.com/community/tutorials/understanding-git-commit-signing): A deep dive into the mechanics and benefits of signing commits.
 
 ### Security Tools
 
