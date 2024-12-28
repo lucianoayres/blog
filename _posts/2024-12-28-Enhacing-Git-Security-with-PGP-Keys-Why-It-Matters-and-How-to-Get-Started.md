@@ -113,7 +113,7 @@ gpg --full-generate-key
 	4.	User ID: Provide your name and email address.
 	5.	Passphrase: Create a secure passphrase to protect your private key.
 
-Step 2: List and Copy Your Public Key
+### Step 2: List and Copy Your Public Key
 
 Find your key’s ID:
 
@@ -134,7 +134,7 @@ Export the public key:
 gpg --armor --export john.doe@example.com > public_key.asc
 ```
 
-Step 3: Configure Git to Use Your PGP Key
+### Step 3: Configure Git to Use Your PGP Key
 
 Tell Git to use your key:
 
@@ -154,7 +154,7 @@ git config --global commit.gpgsign true
 git config --global tag.gpgSign true
 ```
 
-Step 4: Sign a Commit or Tag
+### Step 4: Sign a Commit or Tag
 
 Sign a commit:
 
@@ -174,7 +174,7 @@ Verify a signature:
 git log --show-signature
 ```
 
-Step 5: Publish Your Public Key to a Remote Repository
+### Step 5: Publish Your Public Key to a Remote Repository
 
 GitHub
 	1.	Go to Settings → SSH and GPG Keys.
@@ -191,7 +191,7 @@ GitLab
 	2.	Paste your public key.
 	3.	Add the key.
 
-Step 6: Enforce Signed Commits on Remote Repositories
+### Step 6: Enforce Signed Commits on Remote Repositories
 
 GitHub (Branch Protection Rules)
 	1.	Go to your repository’s Settings → Branches.
@@ -201,7 +201,7 @@ GitHub (Branch Protection Rules)
 
 Now, unsigned commits will be rejected when pushed to protected branches.
 
-GitLab and Bitbucket
+## GitLab and Bitbucket
 
 Use CI/CD pipelines to enforce signature verification as part of the build process.
 
@@ -266,17 +266,11 @@ To further enhance your understanding and implementation of PGP keys with Git, e
 ### Best Practices
 
 - [Securing Git Repositories](https://opensource.com/article/19/7/git-security): Article on securing Git repositories, including the use of PGP.
-- [Managing PGP Keys](https://www.gnupg.org/gph/en/manual/x136.html): Best practices for managing and protecting your PGP keys.
 
 ### Additional Reading
 
 - [Pro Git Book](https://git-scm.com/book/en/v2): An extensive resource covering all aspects of Git, including security features.
 - [Understanding Git Commit Signing](https://www.digitalocean.com/community/tutorials/understanding-git-commit-signing): A deep dive into the mechanics and benefits of signing commits.
-
-### Videos and Webinars
-
-- [GitHub Learning Lab: Signing Commits](https://lab.github.com/githubtraining/signing-commits): Interactive lessons on signing your Git commits.
-- [GPG Key Management Webinar](https://www.gnupg.org/events/): Webinars and presentations on effective GPG key management.
 
 ### Security Tools
 
