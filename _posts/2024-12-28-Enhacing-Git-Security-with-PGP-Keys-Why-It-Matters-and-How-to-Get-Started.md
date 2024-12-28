@@ -254,18 +254,15 @@ To further enhance your understanding and implementation of PGP keys with Git, e
 ### Tutorials and Guides
 
 - [GitHub: Signing Commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits): Detailed instructions on how to sign commits on GitHub.
-- [Atlassian: Git Signed Commits](https://www.atlassian.com/git/tutorials/git-commit-signature): Tutorial on signing Git commits with PGP.
 - [GitLab: Verify Signed Commits and Tags](https://docs.gitlab.com/ee/user/project/repository/signed_commits/): Guide to verifying signed commits and tags in GitLab.
 
 ### Tools and Integrations
 
-- [YubiKey for GPG](https://www.yubico.com/products/yubikey-hardware/yubikey-5-nfc/): Hardware tokens for secure key storage.
 - [Git Hooks](https://git-scm.com/docs/githooks): Customize Git behavior with hooks to enforce signature policies.
 
 ### Community and Support
 
 - [Stack Overflow: PGP Git Questions](https://stackoverflow.com/questions/tagged/pgp+git): Community-driven Q&A for PGP and Git integration.
-- [GnuPG Mailing Lists](https://gnupg.org/community/lists.html): Join discussions and seek help from the GnuPG community.
 
 ### Additional Reading
 
