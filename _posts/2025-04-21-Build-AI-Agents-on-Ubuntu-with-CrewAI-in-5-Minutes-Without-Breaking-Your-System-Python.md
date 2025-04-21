@@ -33,12 +33,9 @@ Add these lines **exactly** to the end of your `~/.bashrc`:
 Run these commands to append the necessary setup lines to your `~/.bashrc`. This directly adds the exports and init call for you:
 
 ```bash
-echo 'export PYENV_ROOT="$HOME/.pyenv"' \
-    >> ~/.bashrc
-echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' \
-    >> ~/.bashrc
-echo 'eval "$(pyenv init - bash)"' \
-    >> ~/.bashrc
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
 ```
 
 Reload your shell so these take effect:
